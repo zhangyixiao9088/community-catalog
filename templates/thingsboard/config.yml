@@ -1,5 +1,5 @@
-name: Thingsboard
+name: Pandu
 description: |
-  An open source IoT platform
+  中电科新型智慧城市研究院有限公司开发，cetc-pandu
 version: v0.1
-category: IoT
+category: Gateway
