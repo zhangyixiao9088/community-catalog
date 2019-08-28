@@ -11,4 +11,5 @@ services:
       - cetc-pandu/kong:kong
       - mysql/mysql:mysql
     external_links:
-      - ${zookeeper_service}:zk
+      - ${mysql_service}:mysql
+      - ${core_service}:kong

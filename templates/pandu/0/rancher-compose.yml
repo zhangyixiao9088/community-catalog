@@ -17,6 +17,12 @@ catalog:
       required: true
       default: "mysql/mysql"
       type: "service"
+    - variable: core_service
+      description: "核心转发服务"
+      label: "核心转发服务"
+      required: true
+      default: "cetc-pandu/kong"
+      type: "service"
 services:
   tb:
     scale: 1
