@@ -1,11 +1,9 @@
-## What is inside Thingsboard Stack?
-* Thingsboard application
-* PostgresSQL or Cassandra
+## 应用支撑?
+* cetc-pandu
+* mysql 
 
-## External Requirments
-* Zookeeper service(available in community catalog)
+## 依赖服务
+* mysql
 
 ## Info
-* Thingsboard is an open-source IoT platform that enables rapid development, management and scaling of IoT projects. See [Thingsboard Architecture](https://thingsboard.io/docs/reference/architecture/) for more details.
-* You can choose from two storage backends: postgres, cassandra
-* You will need a Zookeeper service up and running before running this catalog
+* 中电科新型智慧城市研究院有限公司上架
