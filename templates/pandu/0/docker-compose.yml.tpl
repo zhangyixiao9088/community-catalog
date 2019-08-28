@@ -1,6 +1,6 @@
 version: '2'
 services:
-  tb:
+  cetc-pandu:
     image: "zhangyixiao9088/cetc-pandu:0.0.1-SNAPSHOT"
     ports:
       - "${server_port}:8080"
