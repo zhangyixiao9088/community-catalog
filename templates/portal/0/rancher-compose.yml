@@ -1,0 +1,40 @@
+version: '2'
+catalog:
+  name: "Pandu"
+  version: "v1.1"
+  description: "门户平台，展示不同维度不同不同部不同指标的信息，完成自上而下的信息通达"
+  uuid: cetc-pandu-1
+  questions:
+    - variable: server_port
+      description: "服务端口"
+      label: "服务端口"
+      required: true
+      default: "8900"
+      type: int
+    - variable: mysql_service
+      description: "数据库服务"
+      label: "数据库服务"
+      required: true
+      default: "mysql/mysql"
+      type: "service"
+    - variable: core_service
+      description: "核心转发服务"
+      label: "核心转发服务"
+      required: true
+      default: "cetc-pandu/kong"
+      type: "service"
+    - variable: fux_server
+      description: "业务能力平台服务地址"
+      label: "业务能力平台服务地址"
+      required: true
+      type: "string"
+    - variable: app_id
+      description: "业务能力平台签发的应用ID"
+      label: "应用ID"
+      required: true
+      type: "string"
+    - variable: app_secret
+      description: "业务能力平台签发的应用密钥"
+      label: "应用密钥"
+      required: true
+      type: "string"

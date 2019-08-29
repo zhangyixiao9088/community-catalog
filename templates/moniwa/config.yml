@@ -1,0 +1,5 @@
+name: Moniwa
+description: |
+  监测预警平台，对城市数据进行实时监控，实时汇聚城市多维数据。
+version: v0.1
+category: 智慧院

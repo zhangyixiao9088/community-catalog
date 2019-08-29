@@ -1,8 +1,0 @@
-name: Imagepuller
-description: |
-  DEPRECATED: This catalog item is deprecated and moved to rancher-catalog under pre-pull-images
-version: 0.1.7
-category: Automation
-maintainer: "Sebastiaan van Steenis <seb@rancher.com>"
-license: Apache 2.0
-projectURL: https://github.com/superseb/imagepuller
