@@ -39,7 +39,7 @@ catalog:
       required: true
       type: "string"
 services:
-  tb:
+  cetc-pandu:
     scale: 1
     retain_ip: true
     health_check:
