@@ -15,6 +15,7 @@ catalog:
       description: "数据库服务"
       label: "数据库服务"
       required: true
+      default: "mysql/mysql"
       type: "service"
     - variable: core_service
       description: "核心转发服务"
