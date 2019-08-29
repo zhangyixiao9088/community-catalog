@@ -23,6 +23,21 @@ catalog:
       required: true
       default: "cetc-pandu/kong"
       type: "service"
+    - variable: fux_server
+      description: "业务能力平台服务地址"
+      label: "业务能力平台服务地址"
+      required: true
+      type: "string"
+    - variable: app_id
+      description: "业务能力平台签发的应用ID"
+      label: "应用ID"
+      required: true
+      type: "string"
+    - variable: app_secret
+      description: "业务能力平台签发的应用密钥"
+      label: "应用密钥"
+      required: true
+      type: "string"
 services:
   tb:
     scale: 1
