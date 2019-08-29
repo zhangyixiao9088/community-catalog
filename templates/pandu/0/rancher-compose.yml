@@ -9,7 +9,7 @@ catalog:
       description: "服务端口"
       label: "服务端口"
       required: true
-      default: "8800"
+      default: "8900"
       type: int
     - variable: mysql_service
       description: "数据库服务"
@@ -43,7 +43,7 @@ services:
     scale: 1
     retain_ip: true
     health_check:
-      port: 8800
+      port: 8900
       interval: 5000
       unhealthy_threshold: 3
       request_line: 'GET / HTTP/1.0'
