@@ -43,7 +43,7 @@ services:
     scale: 1
     retain_ip: true
     health_check:
-      port: 8900
+      port: ${server_port}
       interval: 5000
       unhealthy_threshold: 1
       request_line: 'GET / HTTP/1.0'
