@@ -38,14 +38,3 @@ catalog:
       label: "应用密钥"
       required: true
       type: "string"
-services:
-  pandu:
-    scale: 1
-    retain_ip: true
-    health_check:
-      port: ${server_port}
-      interval: 5000
-      unhealthy_threshold: 1
-      request_line: 'GET / HTTP/1.0'
-      healthy_threshold: 1
-      response_timeout: 5000
